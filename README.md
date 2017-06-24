@@ -11,7 +11,7 @@ Just some node trainning files and some cheat sheets.
 
 ### Express
 
-** --save** will add the pakages to the package.json file and depenencies. 
+**--save** will add the pakages to the package.json file and depenencies. 
 ```bash
 npm init  
 
