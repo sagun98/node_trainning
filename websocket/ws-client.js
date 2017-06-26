@@ -1,4 +1,4 @@
-var ws = new WebSocket("ws://https://node-trainning-sagun98.c9users.io/");
+var ws = new WebSocket("ws://localhost:3000");
 
 ws.onopen = function(){
     setTitle("Connected to Cyber chat");
@@ -14,6 +14,7 @@ ws.onmessage= function(payload){
 
 document.forms[0].onsubmit = function () {
     var input = document.getElementById('message');
+    ws.send(input.value);
     input.value = '';
 };
 
