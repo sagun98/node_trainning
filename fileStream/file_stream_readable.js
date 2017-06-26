@@ -1,3 +1,4 @@
+// READABLE FILE SREAM (READS A FILE IN A NUMBE ROF CHUNKS)
 var fs = require("fs");
 
 var stream = fs.createReadStream("./chat.log","UTF-8");

@@ -25,7 +25,7 @@ http.createServer(function(req,res){
     
 }).listen(process.env.PORT, process.env.IP);
 
-console.log ("Server listening on port 3000");
+console.log ("Server listening on port node-dev");
 
 
 //function for including items on stock
